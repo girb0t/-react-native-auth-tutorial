@@ -1,12 +1,18 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import { Button, CardSection, Card } from './common';
 
 class LoginForm extends Component {
   render() {
     return (
-      <View>
-        <Text>Sup</Text>
-      </View>
+      <Card>
+        <CardSection />
+        <CardSection />
+        <CardSection>
+          <Button>
+            Log In
+          </Button>
+        </CardSection>
+      </Card>
     );
   }
 }
