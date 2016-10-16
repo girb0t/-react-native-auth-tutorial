@@ -15,6 +15,7 @@ class LoginForm extends Component {
             value={this.state.text}
             label='Email'
             onChangeText={text => this.setState({ text })}
+            placeholder="cookie_dough@gmail.com"
           />
         </CardSection>
 
